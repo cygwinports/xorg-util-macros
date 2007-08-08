@@ -3,10 +3,10 @@ xorg-util-macros
 Xorg aclocal macros
 
 Build requirements:
-  cygwin-1.5.21-1
-  cygport-0.2.6-1
+  cygwin-1.5.24-2
+  cygport-0.3.5-1
   make-3.81-1
-  sed-4.1.5-1
+  sed-4.1.5-2
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -17,15 +17,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xorg-util-macros-1.1.3-X-src.tar.bz2
+  unpack xorg-util-macros-1.1.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xorg-util-macros-1.1.3-X.cygport all
+  cygport ./xorg-util-macros-1.1.5-X.cygport all
 
 This will create:
-  /usr/src/xorg-util-macros-1.1.3-X-src.tar.bz2
-  /usr/src/xorg-util-macros-1.1.3-X.tar.bz2
+  /usr/src/xorg-util-macros-1.1.5-X-src.tar.bz2
+  /usr/src/xorg-util-macros-1.1.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -33,14 +33,17 @@ Files included in the binary package:
 
   /usr/share/aclocal/xorg-macros.m4
   /usr/share/aclocal/xorgversion.m4
-  /usr/share/doc/Cygwin/xorg-util-macros-1.1.3.README
-  /usr/share/doc/xorg-util-macros-1.1.3/COPYING
-  /usr/share/doc/xorg-util-macros-1.1.3/ChangeLog
-  /usr/share/doc/xorg-util-macros-1.1.3/README
+  /usr/share/doc/Cygwin/xorg-util-macros-1.1.5.README
+  /usr/share/doc/xorg-util-macros-1.1.5/COPYING
+  /usr/share/doc/xorg-util-macros-1.1.5/ChangeLog
+  /usr/share/doc/xorg-util-macros-1.1.5/README
 
 ------------------
 
 Port Notes:
+
+----- version 1.1.5-1 -----
+Version bump for X11R7.3.
 
 ----- version 1.1.3-1 -----
 Version bump for X11R7.2.
