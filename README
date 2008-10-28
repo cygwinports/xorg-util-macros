@@ -1,6 +1,6 @@
 xorg-util-macros
 ------------------------------------------
-Xorg aclocal macros
+X.Org aclocal macros
 
 Build requirements:
   cygwin-1.5.25-15
