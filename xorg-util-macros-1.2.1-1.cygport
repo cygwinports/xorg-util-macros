@@ -1,5 +1,3 @@
 inherit xorg
 
-PATCH_URI="1.1-cpp-undef.patch"
-
 DISTCLEANFILES="xorg-macros.m4"
