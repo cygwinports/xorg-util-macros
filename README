@@ -3,8 +3,8 @@ xorg-util-macros
 X.Org aclocal macros
 
 Build requirements:
-  cygwin-1.7.0-50
-  cygport-0.9.7-1
+  cygwin-1.7.0-60
+  cygport-0.9.9-1
   make-3.81-2
   sed-4.1.5-2
 
@@ -17,15 +17,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xorg-util-macros-1.2.2-X-src.tar.bz2
+  unpack xorg-util-macros-1.3.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xorg-util-macros-1.2.2-X.cygport all
+  cygport ./xorg-util-macros-1.3.0-X.cygport all
 
 This will create:
-  /usr/src/xorg-util-macros-1.2.2-X-src.tar.bz2
-  /usr/src/xorg-util-macros-1.2.2-X.tar.bz2
+  /usr/src/xorg-util-macros-1.3.0-X-src.tar.bz2
+  /usr/src/xorg-util-macros-1.3.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -39,6 +39,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.3.0-1 -----
+Version bump.
 
 ----- version 1.2.2-1 -----
 Version bump.
