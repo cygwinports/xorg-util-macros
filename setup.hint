@@ -1,3 +1,4 @@
 category: X11 Devel
+requires:
 sdesc: "X.Org aclocal macros"
 ldesc: "X.Org aclocal macros"
