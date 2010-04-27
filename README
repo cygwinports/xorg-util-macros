@@ -17,19 +17,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xorg-util-macros-1.6.1-X-src.tar.bz2
+  unpack xorg-util-macros-1.7.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xorg-util-macros-1.6.1-X.cygport all
+  cygport ./xorg-util-macros-1.7.0-X.cygport all
 
 This will create:
-  /usr/src/xorg-util-macros-1.6.1-X-src.tar.bz2
-  /usr/src/xorg-util-macros-1.6.1-X.tar.bz2
+  /usr/src/xorg-util-macros-1.7.0-X-src.tar.bz2
+  /usr/src/xorg-util-macros-1.7.0-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.7.0-1 -----
+Version bump.
 
 ----- version 1.6.1-1 -----
 Version bump.
