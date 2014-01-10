@@ -1,3 +1,0 @@
-inherit xorg
-
-DISTCLEANFILES="xorg-macros.m4"
