@@ -1,10 +1,12 @@
 inherit xorg
 
 NAME="xorg-util-macros"
-VERSION=1.18.0
+VERSION=1.19.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="X.Org aclocal macros"
 DESCRIPTION="X.Org aclocal macros"
+
+ARCH="noarch"
 
 DISTCLEANFILES="xorg-macros.m4"
